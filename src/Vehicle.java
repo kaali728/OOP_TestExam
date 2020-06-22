@@ -1,4 +1,4 @@
-public abstract class Vehicle implements IControllable, RenderObject {
+public abstract class Vehicle implements IControllable, IRenderObject {
 
     protected double rotation;
     protected double positionX;

@@ -1,8 +1,8 @@
 public class Renderer {
 
-    private RenderObject[] objects = new RenderObject[0];
+    private IRenderObject[] objects = new IRenderObject[0];
 
-    public boolean addRenderObject(RenderObject o) {
+    public boolean addRenderObject(IRenderObject o) {
         int potentialSpace = -1;
         for(int i = 0; i < objects.length; i++) {
             if (objects[i] == null) {
@@ -15,7 +15,7 @@ public class Renderer {
         if (potentialSpace != -1) {
             objects[potentialSpace] = o;
         } else {
-            RenderObject[] tmp = new RenderObject[objects.length + 1];
+            IRenderObject[] tmp = new IRenderObject[objects.length + 1];
             System.arraycopy(objects, 0, tmp, 0, objects.length);
             objects = tmp;
             objects[objects.length - 1] = o;
@@ -23,7 +23,7 @@ public class Renderer {
         return true;
     }
 
-    public boolean removeObject(RenderObject o) {
+    public boolean removeObject(IRenderObject o) {
         for(int i = 0; i < objects.length; i++) {
             if(objects[i] != null && objects[i].equals(o)) {
                 objects[i] = null;
