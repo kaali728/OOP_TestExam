@@ -4,6 +4,12 @@ public abstract class Vehicle implements IControllable, IRenderObject {
     protected double positionX;
     protected double positionY;
 
+    public Vehicle(double rotation, double positionX, double positionY) {
+        this.rotation = rotation;
+        this.positionX = positionX;
+        this.positionY = positionY;
+    }
+
     @Override
     public void turnLeft(double degree) {
         rotation = (rotation - degree) % 360;

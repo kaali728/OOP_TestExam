@@ -31,12 +31,17 @@ a) **Vehicle**: Vehicles are controllable objects that can be drawn to the displ
 
 A vehicle can be seen as a single point in space, that has a direction/rotation.
 
-**Protected Attributes**
+
+**protected Attributes**
 - **rotation: double**: Rotation measured in degree. Allowed range: [0;360)
 - **positionX: double**: X Position of the vehicle.
 - **positionY: double**: Y Position of the vehicle.
 
-**Methods**
+**public constructors**
+- **Vehicle(x: double, y: double, rotation: double)**
+    - set all three attributes to the passed value
+
+**public Methods**
 - implement all methods from the `IControllable` interface.
 - Override (implement) the `equals` method. Two vehicles are equal, when they have the same position (Only `x` and `y`).
 - Create setters and getters for the attributes (rotation + x + y)
@@ -46,7 +51,13 @@ A vehicle can be seen as a single point in space, that has a direction/rotation.
 
 a) **Car** and **Motorbike**: Both inherit from `Vehicle`.
 
-**Methods**
+**public constructors**
+- **Car/Motorbike(x: double, y: double, rotation: double)**
+    - call super constructor
+- **Car/Motorbike()**
+    - Set all values to 0
+    
+**public Methods**
 
 - Override (implement) the toString method. Follow the following string pattern:
     ```{class_name}(x: {x_position}, y: {y_position}```
