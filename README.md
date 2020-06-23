@@ -15,7 +15,7 @@ Create for every class/interface a new .java file (Standard in an IDE).
     ```bash
     git checkout submissions
     ```
-- Create a new folder in submissions with a unique name. e.g. Your "Matrikelnummer", name, a random string, ...
+- Create a new folder inside the "submissions" folder with a unique name. e.g. Your "Matrikelnummer", name, a random string, ...
 - Put all your java files in this folder.
 - Add all your .java files. (No .class files)
     ```bash
