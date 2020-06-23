@@ -1,11 +1,14 @@
 public class Motorbike extends Vehicle{
 
+    private double tiltAngle;
+
     public Motorbike() {
-        this(0, 0, 0);
+        this(0, 0, 0, 0);
     }
 
-    public Motorbike(double rotation, double positionX, double positionY) {
+    public Motorbike(double initialTiltAngle, double rotation, double positionX, double positionY) {
         super(rotation, positionX, positionY);
+        this.tiltAngle = initialTiltAngle;
     }
 
     @Override
@@ -16,5 +19,13 @@ public class Motorbike extends Vehicle{
     @Override
     public String toString() {
         return "Motorbike(x: " + getPositionX() + ", y: " + getPositionY() + ")";
+    }
+
+    public double getTiltAngle() {
+        return tiltAngle;
+    }
+
+    public void setTiltAngle(double tiltAngle) {
+        this.tiltAngle = tiltAngle;
     }
 }

@@ -3,44 +3,47 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="172.0" y="0.0">IControllable</node>
-    <node x="110.0" y="102.0">Vehicle</node>
-    <node x="0.0" y="0.0">IRenderObject</node>
-    <node x="68.0" y="204.0">Car</node>
-    <node x="0.0" y="301.0">Renderer</node>
-    <node x="160.0" y="204.0">Motorbike</node>
+    <node x="160.5" y="170.0">Vehicle</node>
+    <node x="293.25" y="33.0">IRenderObject</node>
+    <node x="301.0" y="665.0">Car</node>
+    <node x="547.0" y="0.0">Renderer</node>
+    <node x="72.25" y="0.0">IControllable</node>
+    <node x="0.0" y="622.0">Motorbike</node>
   </nodes>
   <notes />
   <edges>
     <edge source="Vehicle" target="IRenderObject">
-      <point x="-26.0" y="-26.0" />
-      <point x="136.0" y="77.0" />
-      <point x="76.0" y="77.0" />
-      <point x="0.0" y="26.0" />
-    </edge>
-    <edge source="Car" target="Vehicle">
-      <point x="0.0" y="-26.0" />
-      <point x="104.0" y="179.0" />
-      <point x="136.0" y="179.0" />
-      <point x="-26.0" y="26.0" />
+      <point x="55.25" y="-201.0" />
+      <point x="326.25" y="145.0" />
+      <point x="369.25" y="145.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="Vehicle" target="IControllable">
-      <point x="26.0" y="-26.0" />
-      <point x="188.0" y="77.0" />
-      <point x="248.0" y="77.0" />
-      <point x="0.0" y="26.0" />
+      <point x="-55.25" y="-201.0" />
+      <point x="215.75" y="145.0" />
+      <point x="172.75" y="145.0" />
+      <point x="0.0" y="60.0" />
+    </edge>
+    <edge source="Car" target="Vehicle">
+      <point x="0.0" y="-70.0" />
+      <point x="401.5" y="597.0" />
+      <point x="326.25" y="597.0" />
+      <point x="55.25" y="201.0" />
     </edge>
     <edge source="Motorbike" target="Vehicle">
-      <point x="0.0" y="-26.0" />
-      <point x="220.0" y="179.0" />
-      <point x="188.0" y="179.0" />
-      <point x="26.0" y="26.0" />
+      <point x="0.0" y="-113.0" />
+      <point x="140.5" y="597.0" />
+      <point x="215.75" y="597.0" />
+      <point x="-55.25" y="201.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.8373493975903614" x="349.0" y="381.26618705035975" />
+  <settings layout="Hierarchic Group" zoom="0.8373493975903614" x="349.0" y="381.0" />
   <SelectedNodes />
   <Categories>
     <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
   </Categories>
   <SCOPE>Project Files</SCOPE>
   <VISIBILITY>private</VISIBILITY>

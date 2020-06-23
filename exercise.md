@@ -49,12 +49,12 @@ A vehicle can be seen as a single point in space, that has a direction/rotation.
 
 ## 3. Classes
 
-a) **Car** and **Motorbike**: Both inherit from `Vehicle`.
+a) **Car**: Extends `Vehicle`.
 
 **public constructors**
-- **Car/Motorbike(x: double, y: double, rotation: double)**
+- **Car(x: double, y: double, rotation: double)**
     - call super constructor
-- **Car/Motorbike()**
+- **Car()**
     - Set all values to 0
     
 **public Methods**
@@ -65,7 +65,31 @@ a) **Car** and **Motorbike**: Both inherit from `Vehicle`.
     e.g. `{class_name}` -> `Car`.
 - Implement all methods from parent classes or Interfaces, that are not implemented in any parent class. (*Hint: Only one method*)
 
-b) **Renderer**: Stores all objects that can be rendered.
+b) **Motorbike**: Extends `Vehicle`.
+
+**private Attributes**
+- **tiltAngle: double**: Current tilt angle. (Aktueller Neigungswinkel)
+
+**public constructors**
+- **Motorbike(tiltAngle: double, x: double, y: double, rotation: double)**
+    - call super constructor
+    - set `tiltAngle`
+    
+- **Car()**
+    - Set all values to 0
+    
+**public Methods**
+
+- Override (implement) the **toString** method. Follow the following string pattern:
+
+    ```{class_name}(x: {x_position}, y: {y_position}```
+    
+    Values inside curly brackets `{value}` need to be replaced by its actual value.
+    e.g. `{class_name}` -> `Car`.
+- Implement all methods from parent classes or Interfaces, that are not implemented in any parent class. (*Hint: Only one method*)
+
+
+c) **Renderer**: Stores all objects that can be rendered.
 
 **private Attributes:**
 
@@ -92,3 +116,7 @@ b) **Renderer**: Stores all objects that can be rendered.
     - return `true` when an object was found and replaced, `false` otherwise.
 - **render(): void**
     - Render all objects 
+    
+## Class diagrams
+
+![Classes Hierarchy](docs/classes_hierarchy.png)
