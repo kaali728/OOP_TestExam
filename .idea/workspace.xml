@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="c6a3b90c-07eb-4bf0-b522-c4ef40e960b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
     </list>
+=======
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6a3b90c-07eb-4bf0-b522-c4ef40e960b5" name="Default Changelist" comment="" />
+>>>>>>> 41b281df30b07caed41ed094dfae9a4386253b64
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,11 +56,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593011870635</updated>
+<<<<<<< HEAD
       <workItem from="1593011884650" duration="395000" />
+=======
+      <workItem from="1593011884650" duration="1634000" />
+>>>>>>> 41b281df30b07caed41ed094dfae9a4386253b64
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593013144768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1593013144768" />
+    <state x="549" y="114" key="FileChooserDialogImpl" timestamp="1593013275939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="114" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593013275939" />
+  </component>
+>>>>>>> 41b281df30b07caed41ed094dfae9a4386253b64
 </project>
